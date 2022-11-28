@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "042A3EFB291FD1EA002E9CB3"
+               BlueprintIdentifier = "045A4C522934F2B40011E6B8"
                BuildableName = "ChatApp.app"
                BlueprintName = "ChatApp"
                ReferencedContainer = "container:ChatApp.xcodeproj">
@@ -33,7 +33,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "042A3F11291FD1ED002E9CB3"
+               BlueprintIdentifier = "045A4C682934F2B60011E6B8"
                BuildableName = "ChatAppTests.xctest"
                BlueprintName = "ChatAppTests"
                ReferencedContainer = "container:ChatApp.xcodeproj">
@@ -44,7 +44,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "042A3F1B291FD1ED002E9CB3"
+               BlueprintIdentifier = "045A4C722934F2B60011E6B8"
                BuildableName = "ChatAppUITests.xctest"
                BlueprintName = "ChatAppUITests"
                ReferencedContainer = "container:ChatApp.xcodeproj">
@@ -66,7 +66,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "042A3EFB291FD1EA002E9CB3"
+            BlueprintIdentifier = "045A4C522934F2B40011E6B8"
             BuildableName = "ChatApp.app"
             BlueprintName = "ChatApp"
             ReferencedContainer = "container:ChatApp.xcodeproj">
@@ -83,7 +83,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "042A3EFB291FD1EA002E9CB3"
+            BlueprintIdentifier = "045A4C522934F2B40011E6B8"
             BuildableName = "ChatApp.app"
             BlueprintName = "ChatApp"
             ReferencedContainer = "container:ChatApp.xcodeproj">
