@@ -148,7 +148,6 @@
 				ACC85BA8B7C97C3B094579E0 /* Pods-ChatApp.debug.xcconfig */,
 				AC83A88C0127E2F0D755A713 /* Pods-ChatApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			buildConfigurationList = 045A4C7D2934F2B60011E6B8 /* Build configuration list for PBXNativeTarget "ChatApp" */;
 			buildPhases = (
 				46A98601B4D110ABEC9B254B /* [CP] Check Pods Manifest.lock */,
+				04BBC643293614A000FB333D /* SwiftLint */,
 				045A4C4F2934F2B40011E6B8 /* Sources */,
 				045A4C502934F2B40011E6B8 /* Frameworks */,
 				045A4C512934F2B40011E6B8 /* Resources */,
@@ -281,6 +281,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04BBC643293614A000FB333D /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 		0E1F687C16C59B187346FA87 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
