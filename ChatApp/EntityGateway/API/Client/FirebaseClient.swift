@@ -16,6 +16,7 @@ protocol FirebaseClient {
 
 class FirebaseClientImpl: FirebaseClient {
     private let firebaseAuth: Auth
+    
     init() {
         self.firebaseAuth = Auth.auth()
     }
@@ -24,11 +25,11 @@ class FirebaseClientImpl: FirebaseClient {
         firebaseAuth.signIn(withEmail: paramater.email,
                             password: paramater.password
         ) { authResult, _ in
-            guard let userId = authResult?.user.uid else{
+            guard let userId = authResult?.user.uid else {
                 completionHandler(.failure(FirebaseClientError.loginFailed))
                 return
             }
-            
+            print("user founded \(userId)")
         }
     }
 }
