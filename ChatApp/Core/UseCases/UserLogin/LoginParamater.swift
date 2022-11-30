@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LoginParamater{
-    var name: String
-    var email: String
+struct LoginParamater {
+    let password: String
+    let email: String
 }

@@ -7,9 +7,9 @@
 
 import Foundation
 
-protocol AuthentecationGateway{
+protocol AuthentecationGateway {
     func login(
         loginParamter: LoginParamater,
-        completionHandler: @escaping (_ user: Result<User,Error>)-> Void
+        completionHandler: @escaping (_ user: Result<User, Error>) -> Void
     )
 }
