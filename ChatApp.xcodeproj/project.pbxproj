@@ -19,6 +19,7 @@
 		04BD633C29362AD5006F1A65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD633B29362AD5006F1A65 /* User.swift */; };
 		04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD634229362E1D006F1A65 /* UserLogin.swift */; };
 		04BD634529364773006F1A65 /* LoginParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD634429364773006F1A65 /* LoginParameter.swift */; };
+		04D586E6293790A30065CC7D /* Scenes in Resources */ = {isa = PBXBuildFile; fileRef = 04D586E5293790A30065CC7D /* Scenes */; };
 		04E5ABDB29374B7800F8E898 /* AuthenticationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDA29374B7800F8E898 /* AuthenticationGateway.swift */; };
 		04E5ABDE29374CEF00F8E898 /* String+Extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDD29374CEF00F8E898 /* String+Extenions.swift */; };
 		04E5ABE029374FBC00F8E898 /* UserLoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDF29374FBC00F8E898 /* UserLoginError.swift */; };
@@ -63,6 +64,7 @@
 		04BD633B29362AD5006F1A65 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04BD634229362E1D006F1A65 /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
 		04BD634429364773006F1A65 /* LoginParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginParameter.swift; sourceTree = "<group>"; };
+		04D586E5293790A30065CC7D /* Scenes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scenes; sourceTree = "<group>"; };
 		04E5ABDA29374B7800F8E898 /* AuthenticationGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationGateway.swift; sourceTree = "<group>"; };
 		04E5ABDD29374CEF00F8E898 /* String+Extenions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extenions.swift"; sourceTree = "<group>"; };
 		04E5ABDF29374FBC00F8E898 /* UserLoginError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginError.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			children = (
 				04BD633829362A2C006F1A65 /* Core */,
 				04E5ABE12937517700F8E898 /* EntityGateway */,
+				04D586E5293790A30065CC7D /* Scenes */,
 				04E5ABDC29374CD300F8E898 /* Extensions */,
 				045A4C562934F2B40011E6B8 /* AppDelegate.swift */,
 				045A4C582934F2B40011E6B8 /* SceneDelegate.swift */,
@@ -368,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D586E6293790A30065CC7D /* Scenes in Resources */,
 				045A4C632934F2B50011E6B8 /* LaunchScreen.storyboard in Resources */,
 				04E5ABE92937587100F8E898 /* GoogleService-Info.plist in Resources */,
 				045A4C602934F2B50011E6B8 /* Assets.xcassets in Resources */,
