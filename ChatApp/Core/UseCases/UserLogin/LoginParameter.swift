@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LoginParamater {
+struct LoginParameter {
     let password: String
     let email: String
 }

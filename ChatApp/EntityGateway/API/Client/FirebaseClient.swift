@@ -10,7 +10,7 @@ import Firebase
 
 protocol FirebaseClient {
     func login(
-        with paramater: LoginParamater,
+        with paramater: LoginParameter,
         completionHandler: @escaping (_ result: Result<User, Error>) -> Void )
 }
 
@@ -20,7 +20,7 @@ class FirebaseClientImpl: FirebaseClient {
     init() {
         self.firebaseAuth = Auth.auth()
     }
-    func login(with paramater: LoginParamater,
+    func login(with paramater: LoginParameter,
                completionHandler: @escaping (Result<User, Error>) -> Void) {
         firebaseAuth.signIn(withEmail: paramater.email,
                             password: paramater.password

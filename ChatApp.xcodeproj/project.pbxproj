@@ -18,13 +18,14 @@
 		045A4C7A2934F2B60011E6B8 /* ChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4C792934F2B60011E6B8 /* ChatAppUITestsLaunchTests.swift */; };
 		04BD633C29362AD5006F1A65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD633B29362AD5006F1A65 /* User.swift */; };
 		04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD634229362E1D006F1A65 /* UserLogin.swift */; };
-		04BD634529364773006F1A65 /* LoginParamater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD634429364773006F1A65 /* LoginParamater.swift */; };
-		04E5ABDB29374B7800F8E898 /* AuthentecationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDA29374B7800F8E898 /* AuthentecationGateway.swift */; };
+		04BD634529364773006F1A65 /* LoginParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD634429364773006F1A65 /* LoginParameter.swift */; };
+		04E5ABDB29374B7800F8E898 /* AuthenticationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDA29374B7800F8E898 /* AuthenticationGateway.swift */; };
 		04E5ABDE29374CEF00F8E898 /* String+Extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDD29374CEF00F8E898 /* String+Extenions.swift */; };
 		04E5ABE029374FBC00F8E898 /* UserLoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDF29374FBC00F8E898 /* UserLoginError.swift */; };
 		04E5ABE52937526700F8E898 /* FirebaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABE42937526700F8E898 /* FirebaseClient.swift */; };
 		04E5ABE7293755E800F8E898 /* FirebaseClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABE6293755E700F8E898 /* FirebaseClientError.swift */; };
 		04E5ABE92937587100F8E898 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E5ABE82937587100F8E898 /* GoogleService-Info.plist */; };
+		04E5ABED29375EC400F8E898 /* APIAuthenticationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABEC29375EC300F8E898 /* APIAuthenticationGateway.swift */; };
 		AC6697ABEDC3F33A80BB95E4 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF2AA0568F869D758B3EA33 /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,13 +62,14 @@
 		045A4C792934F2B60011E6B8 /* ChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04BD633B29362AD5006F1A65 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04BD634229362E1D006F1A65 /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
-		04BD634429364773006F1A65 /* LoginParamater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginParamater.swift; sourceTree = "<group>"; };
-		04E5ABDA29374B7800F8E898 /* AuthentecationGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentecationGateway.swift; sourceTree = "<group>"; };
+		04BD634429364773006F1A65 /* LoginParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginParameter.swift; sourceTree = "<group>"; };
+		04E5ABDA29374B7800F8E898 /* AuthenticationGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationGateway.swift; sourceTree = "<group>"; };
 		04E5ABDD29374CEF00F8E898 /* String+Extenions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extenions.swift"; sourceTree = "<group>"; };
 		04E5ABDF29374FBC00F8E898 /* UserLoginError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginError.swift; sourceTree = "<group>"; };
 		04E5ABE42937526700F8E898 /* FirebaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClient.swift; sourceTree = "<group>"; };
 		04E5ABE6293755E700F8E898 /* FirebaseClientError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseClientError.swift; sourceTree = "<group>"; };
 		04E5ABE82937587100F8E898 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04E5ABEC29375EC300F8E898 /* APIAuthenticationGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIAuthenticationGateway.swift; sourceTree = "<group>"; };
 		7EF2AA0568F869D758B3EA33 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC83A88C0127E2F0D755A713 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		ACC85BA8B7C97C3B094579E0 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -177,7 +179,7 @@
 		04BD633A29362A4B006F1A65 /* Gateways */ = {
 			isa = PBXGroup;
 			children = (
-				04E5ABDA29374B7800F8E898 /* AuthentecationGateway.swift */,
+				04E5ABDA29374B7800F8E898 /* AuthenticationGateway.swift */,
 			);
 			path = Gateways;
 			sourceTree = "<group>";
@@ -194,7 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				04BD634229362E1D006F1A65 /* UserLogin.swift */,
-				04BD634429364773006F1A65 /* LoginParamater.swift */,
+				04BD634429364773006F1A65 /* LoginParameter.swift */,
 				04E5ABDF29374FBC00F8E898 /* UserLoginError.swift */,
 			);
 			path = UserLogin;
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				04E5ABE32937524500F8E898 /* Client */,
+				04E5ABEB29375EA900F8E898 /* Gateways */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -231,6 +234,14 @@
 				04E5ABE6293755E700F8E898 /* FirebaseClientError.swift */,
 			);
 			path = Client;
+			sourceTree = "<group>";
+		};
+		04E5ABEB29375EA900F8E898 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				04E5ABEC29375EC300F8E898 /* APIAuthenticationGateway.swift */,
+			);
+			path = Gateways;
 			sourceTree = "<group>";
 		};
 		4B6EB1168E1805EDDDC86484 /* Frameworks */ = {
@@ -446,10 +457,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E5ABDE29374CEF00F8E898 /* String+Extenions.swift in Sources */,
-				04E5ABDB29374B7800F8E898 /* AuthentecationGateway.swift in Sources */,
+				04E5ABED29375EC400F8E898 /* APIAuthenticationGateway.swift in Sources */,
+				04E5ABDB29374B7800F8E898 /* AuthenticationGateway.swift in Sources */,
 				04E5ABE7293755E800F8E898 /* FirebaseClientError.swift in Sources */,
 				04BD633C29362AD5006F1A65 /* User.swift in Sources */,
-				04BD634529364773006F1A65 /* LoginParamater.swift in Sources */,
+				04BD634529364773006F1A65 /* LoginParameter.swift in Sources */,
 				04E5ABE029374FBC00F8E898 /* UserLoginError.swift in Sources */,
 				04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */,
 				045A4C5B2934F2B40011E6B8 /* ViewController.swift in Sources */,
