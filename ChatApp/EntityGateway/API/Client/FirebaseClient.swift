@@ -14,4 +14,21 @@ protocol FirebaseClient {
         completionHandler: @escaping (_ result: Result<User, Error>) -> Void )
 }
 
-
+class FirebaseClientImpl: FirebaseClient {
+    private let firebaseAuth: Auth
+    init() {
+        self.firebaseAuth = Auth.auth()
+    }
+    func login(with paramater: LoginParamater,
+               completionHandler: @escaping (Result<User, Error>) -> Void) {
+        firebaseAuth.signIn(withEmail: paramater.email,
+                            password: paramater.password
+        ) { authResult, _ in
+            guard let userId = authResult?.user.uid else{
+                completionHandler(.failure(FirebaseClientError.loginFailed))
+                return
+            }
+            
+        }
+    }
+}
