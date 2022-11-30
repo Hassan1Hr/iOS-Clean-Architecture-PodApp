@@ -15,7 +15,9 @@ protocol UserLoginUseCase{
 }
 
 class UserLoginUseCaseImpl: UserLoginUseCase{
-    func userLogin(loginParamater: LoginParamater, completionHandler: @escaping (Result<User, Error>) -> Void) {
+    func userLogin(
+        loginParamater: LoginParamater,
+        completionHandler: @escaping (Result<User, Error>) -> Void) {
         
     }
     

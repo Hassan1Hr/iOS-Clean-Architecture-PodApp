@@ -19,6 +19,7 @@
 		04BD633C29362AD5006F1A65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD633B29362AD5006F1A65 /* User.swift */; };
 		04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD634229362E1D006F1A65 /* UserLogin.swift */; };
 		04BD634529364773006F1A65 /* LoginParamater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD634429364773006F1A65 /* LoginParamater.swift */; };
+		04E5ABDB29374B7800F8E898 /* AuthentecationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDA29374B7800F8E898 /* AuthentecationGateway.swift */; };
 		AC6697ABEDC3F33A80BB95E4 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF2AA0568F869D758B3EA33 /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		04BD633B29362AD5006F1A65 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04BD634229362E1D006F1A65 /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
 		04BD634429364773006F1A65 /* LoginParamater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginParamater.swift; sourceTree = "<group>"; };
+		04E5ABDA29374B7800F8E898 /* AuthentecationGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentecationGateway.swift; sourceTree = "<group>"; };
 		7EF2AA0568F869D758B3EA33 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC83A88C0127E2F0D755A713 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		ACC85BA8B7C97C3B094579E0 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,7 +146,7 @@
 		04BD633829362A2C006F1A65 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				04BD633A29362A4B006F1A65 /* GateWays */,
+				04BD633A29362A4B006F1A65 /* Gateways */,
 				04BD633D29362BD3006F1A65 /* UseCases */,
 				04BD633929362A39006F1A65 /* Entities */,
 			);
@@ -159,11 +161,12 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		04BD633A29362A4B006F1A65 /* GateWays */ = {
+		04BD633A29362A4B006F1A65 /* Gateways */ = {
 			isa = PBXGroup;
 			children = (
+				04E5ABDA29374B7800F8E898 /* AuthentecationGateway.swift */,
 			);
-			path = GateWays;
+			path = Gateways;
 			sourceTree = "<group>";
 		};
 		04BD633D29362BD3006F1A65 /* UseCases */ = {
@@ -394,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E5ABDB29374B7800F8E898 /* AuthentecationGateway.swift in Sources */,
 				04BD633C29362AD5006F1A65 /* User.swift in Sources */,
 				04BD634529364773006F1A65 /* LoginParamater.swift in Sources */,
 				04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */,
