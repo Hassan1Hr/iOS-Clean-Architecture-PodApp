@@ -15,10 +15,10 @@ protocol UserLoginUseCase {
 }
 
 class UserLoginUseCaseImpl: UserLoginUseCase {
-    let authentecationGateway: AuthentecationGateway
+    let authenticationGateway: AuthenticationGateway
     
-    init(authentecationGateway: AuthentecationGateway) {
-        self.authentecationGateway = authentecationGateway
+    init(authenticationGateway: AuthenticationGateway) {
+        self.authenticationGateway = authenticationGateway
     }
     func userLogin(
         loginParamater: LoginParameter,
@@ -31,7 +31,7 @@ class UserLoginUseCaseImpl: UserLoginUseCase {
                 completionHandler(.failure(UserLoginError.notValidEmail))
                 return
             }
-            authentecationGateway.login(loginParamter: loginParamater,
+            authenticationGateway.login(loginParamter: loginParamater,
                                         completionHandler: completionHandler)
     }
     
