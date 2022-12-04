@@ -5,11 +5,11 @@
 //  Created by mac on 29/11/2022.
 //
 
-
 import UIKit
 
 protocol LoginView: AnyObject {
-
+    func loginSuccessed()
+    func loginFailed()
 }
 
 class LoginViewController: UIViewController {
@@ -35,5 +35,18 @@ class LoginViewController: UIViewController {
 }
 
 extension LoginViewController: LoginView {
-
+    func loginSuccessed() {
+        present(UIAlertController(title: "Alert",
+                                  message: "greate, success login",
+                                  preferredStyle: .alert),
+                                  animated: true)
+    }
+    
+    func loginFailed() {
+        present(UIAlertController(title: "OOP",
+                                  message: "fail to login",
+                                  preferredStyle: .alert),
+                                  animated: true)
+    }
+    
 }

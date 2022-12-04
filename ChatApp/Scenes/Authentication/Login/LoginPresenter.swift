@@ -5,14 +5,13 @@
 //  Created by mac on 29/11/2022.
 //
 
-
 import Foundation
 
 protocol LoginPresenter {
     func login(with email: String, and password: String)
 }
 
-class LoginPresenterImplementation: LoginPresenter {
+class LoginPresenterImpl: LoginPresenter {
     private weak var loginView: LoginView?
     private var loginUseCase: UserLoginUseCase
 
@@ -22,14 +21,14 @@ class LoginPresenterImplementation: LoginPresenter {
     }
 
     func login(with email: String, and password: String) {
-        let parameters = LoginParameters(email: email, password: password)
+        let parameters = LoginParameter(password: password, email: email)
 
-        loginUseCase.login(parameters: parameters) { result in
+        loginUseCase.userLogin(loginParamater: parameters) { result in
             switch result {
             case .success:
-                break
+                self.loginView?.loginSuccessed()
             case .failure:
-                break
+                self.loginView?.loginFailed()
             }
         }
     }
