@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct User:Codable {
+struct User: Codable {
     var id = ""
-    var username:String
-    var email:String
+    var username: String
+    var email: String
     var pushId = ""
     var avatarLink = ""
-    var status:String
+    var status: String
 }
