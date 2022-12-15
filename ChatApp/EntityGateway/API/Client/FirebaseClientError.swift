@@ -9,6 +9,7 @@ import Foundation
 
 enum FirebaseClientError: Error {
     case loginFailed
+    case invalidUserName
 }
 
 extension FirebaseClientError: LocalizedError {
@@ -16,6 +17,9 @@ extension FirebaseClientError: LocalizedError {
         switch self {
         case .loginFailed:
             return "Please try again later."
+        case .invalidUserName:
+            return "please enter unique user name."
         }
+        
     }
 }

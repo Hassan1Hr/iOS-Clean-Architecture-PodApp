@@ -25,11 +25,10 @@ class FirebaseClientImpl: FirebaseClient {
         firebaseAuth.signIn(withEmail: paramater.email,
                             password: paramater.password
         ) { authResult, _ in
-            guard let userId = authResult?.user.uid else {
+            guard let _ = authResult?.user.uid else {
                 completionHandler(.failure(FirebaseClientError.loginFailed))
                 return
             }
-            print("user founded \(userId)")
         }
     }
 }

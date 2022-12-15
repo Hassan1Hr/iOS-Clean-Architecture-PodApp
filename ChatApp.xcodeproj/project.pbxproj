@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040DB654294BBA25002205C8 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB653294BBA25002205C8 /* Route.swift */; };
+		040DB656294BBAEF002205C8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB655294BBAEF002205C8 /* Network.swift */; };
+		040DB658294BBB5A002205C8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB657294BBB5A002205C8 /* Alamofire.swift */; };
+		040DB65B294BBC4D002205C8 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB65A294BBC4D002205C8 /* Remote.swift */; };
 		044755AA29379361000DB74C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044755A629379361000DB74C /* LoginViewController.xib */; };
 		044755AB29379361000DB74C /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044755A729379361000DB74C /* LoginConfigurator.swift */; };
 		044755AC29379361000DB74C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044755A829379361000DB74C /* LoginViewController.swift */; };
@@ -52,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040DB653294BBA25002205C8 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		040DB655294BBAEF002205C8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		040DB657294BBB5A002205C8 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		040DB65A294BBC4D002205C8 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
 		044755A629379361000DB74C /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		044755A729379361000DB74C /* LoginConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
 		044755A829379361000DB74C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +119,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040DB652294BBA03002205C8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				040DB659294BBB87002205C8 /* Romote */,
+				040DB655294BBAEF002205C8 /* Network.swift */,
+				040DB657294BBB5A002205C8 /* Alamofire.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		040DB659294BBB87002205C8 /* Romote */ = {
+			isa = PBXGroup;
+			children = (
+				040DB653294BBA25002205C8 /* Route.swift */,
+				040DB65A294BBC4D002205C8 /* Remote.swift */,
+			);
+			path = Romote;
+			sourceTree = "<group>";
+		};
 		044755A329379361000DB74C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +312,7 @@
 		04E5ABE32937524500F8E898 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				040DB652294BBA03002205C8 /* Network */,
 				04E5ABE42937526700F8E898 /* FirebaseClient.swift */,
 				04E5ABE6293755E700F8E898 /* FirebaseClientError.swift */,
 			);
@@ -520,11 +548,15 @@
 				04B50719293C8F4400EDD10B /* NavigationRoute.swift in Sources */,
 				04BD633C29362AD5006F1A65 /* User.swift in Sources */,
 				04B50716293C8C5000EDD10B /* OnboardingConfigurator.swift in Sources */,
+				040DB654294BBA25002205C8 /* Route.swift in Sources */,
 				04BD634529364773006F1A65 /* LoginParameter.swift in Sources */,
 				044755AD29379361000DB74C /* LoginPresenter.swift in Sources */,
+				040DB656294BBAEF002205C8 /* Network.swift in Sources */,
 				04E5ABE029374FBC00F8E898 /* UserLoginError.swift in Sources */,
+				040DB658294BBB5A002205C8 /* Alamofire.swift in Sources */,
 				04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */,
 				04E5ABE52937526700F8E898 /* FirebaseClient.swift in Sources */,
+				040DB65B294BBC4D002205C8 /* Remote.swift in Sources */,
 				04B50714293C8AAA00EDD10B /* OnboardingPresenter.swift in Sources */,
 				045A4C572934F2B40011E6B8 /* AppDelegate.swift in Sources */,
 				04B50711293C8A1F00EDD10B /* OnboardingViewController.swift in Sources */,
@@ -686,6 +718,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DATQ4VHWY9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -714,6 +747,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DATQ4VHWY9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
