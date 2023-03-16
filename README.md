@@ -1,1 +1,1 @@
-# iOS Clean Architecture ChatApp
+# iOS Clean Architecture PodApp
