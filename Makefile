@@ -18,7 +18,7 @@ setup: \
 
 # Pre-setup steps
 pre_setup:
-	$(info ChatApp-Clean-Architecture iOS Project Setup ...)
+	$(info MyPodcasts-Clean-Architecture iOS Project Setup ...)
 
 # Check if Ruby is installed
 check_for_ruby:

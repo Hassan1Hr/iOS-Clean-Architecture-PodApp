@@ -1,23 +1,13 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '12.0'
+inhibit_all_warnings!
 
-target 'ChatApp' do
+target 'MyPodcasts' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for ChatApp
+  # Pods for MyPodcasts
   pod 'RealmSwift', '10.28.3'
-  pod 'SKPhotoBrowser', '7.0.0'
-  pod 'MessageKit', '3.8.0'
-  pod 'InputBarAccessoryView'
-  pod 'Firebase/Core', '10.0.0'
-  pod 'Firebase/Auth', '10.0.0'
-  pod 'Firebase/Firestore', '10.0.0'
-  pod 'Firebase/Storage', '10.0.0'
-  pod 'Firebase/Analytics', '10.0.0'
-  pod 'Firebase/Messaging', '10.0.0'
-  pod 'FirebaseFirestoreSwift', '10.0.0'
-  pod 'Gallery', '2.4'
   pod 'SkeletonView', '1.21.2'
   pod 'AllowX', '1.1.2'
   pod 'R.swift', '5.4.0'
@@ -28,6 +18,8 @@ target 'ChatApp' do
   pod 'Resolver', '1.4.3'
   pod 'JGProgressHUD', '2.2'
   pod 'Kingfisher', '7.1.1'
+  pod 'FeedKit', '7.0.1'
+  pod 'PodcastAPI', '1.1.4'
 
 post_install do |pi|
    pi.pods_project.targets.each do |t|
