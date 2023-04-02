@@ -27,7 +27,7 @@ public class Remote {
         self.network = network
     }
     
-    func createRequest(from request: RequestInterceptor){
+    func createRequest(from request: RequestInterceptor) {
         
     }
     

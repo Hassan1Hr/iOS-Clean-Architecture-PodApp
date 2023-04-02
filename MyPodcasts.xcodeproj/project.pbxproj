@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		040DB656294BBAEF002205C8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB655294BBAEF002205C8 /* Network.swift */; };
-		040DB658294BBB5A002205C8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB657294BBB5A002205C8 /* Alamofire.swift */; };
+		040DB658294BBB5A002205C8 /* AlamofireNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB657294BBB5A002205C8 /* AlamofireNetwork.swift */; };
 		040DB65B294BBC4D002205C8 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB65A294BBC4D002205C8 /* Remote.swift */; };
 		040DB65D294BC453002205C8 /* PodcastRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB65C294BC453002205C8 /* PodcastRemote.swift */; };
 		040DB660294BC50B002205C8 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB65F294BC50B002205C8 /* Podcast.swift */; };
@@ -35,6 +35,9 @@
 		04BD633C29362AD5006F1A65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD633B29362AD5006F1A65 /* User.swift */; };
 		04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD634229362E1D006F1A65 /* UserLogin.swift */; };
 		04BD634529364773006F1A65 /* LoginParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD634429364773006F1A65 /* LoginParameter.swift */; };
+		04D8557C29D962B8006FEED8 /* PodcastRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8557B29D962B8006FEED8 /* PodcastRequest.swift */; };
+		04D8557E29D965DB006FEED8 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8557D29D965DB006FEED8 /* RequestProtocol.swift */; };
+		04D8558029D96637006FEED8 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8557F29D96637006FEED8 /* RequestType.swift */; };
 		04E5ABDB29374B7800F8E898 /* AuthenticationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDA29374B7800F8E898 /* AuthenticationGateway.swift */; };
 		04E5ABDE29374CEF00F8E898 /* String+Extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDD29374CEF00F8E898 /* String+Extenions.swift */; };
 		04E5ABE029374FBC00F8E898 /* UserLoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5ABDF29374FBC00F8E898 /* UserLoginError.swift */; };
@@ -61,7 +64,7 @@
 
 /* Begin PBXFileReference section */
 		040DB655294BBAEF002205C8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		040DB657294BBB5A002205C8 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		040DB657294BBB5A002205C8 /* AlamofireNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireNetwork.swift; sourceTree = "<group>"; };
 		040DB65A294BBC4D002205C8 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
 		040DB65C294BC453002205C8 /* PodcastRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastRemote.swift; sourceTree = "<group>"; };
 		040DB65F294BC50B002205C8 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
@@ -93,6 +96,9 @@
 		04BD633B29362AD5006F1A65 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04BD634229362E1D006F1A65 /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
 		04BD634429364773006F1A65 /* LoginParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginParameter.swift; sourceTree = "<group>"; };
+		04D8557B29D962B8006FEED8 /* PodcastRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastRequest.swift; sourceTree = "<group>"; };
+		04D8557D29D965DB006FEED8 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		04D8557F29D96637006FEED8 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		04E5ABDA29374B7800F8E898 /* AuthenticationGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationGateway.swift; sourceTree = "<group>"; };
 		04E5ABDD29374CEF00F8E898 /* String+Extenions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extenions.swift"; sourceTree = "<group>"; };
 		04E5ABDF29374FBC00F8E898 /* UserLoginError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginError.swift; sourceTree = "<group>"; };
@@ -172,8 +178,6 @@
 		040DB667294BCA15002205C8 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				040DB655294BBAEF002205C8 /* Network.swift */,
-				040DB657294BBB5A002205C8 /* Alamofire.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -341,6 +345,50 @@
 			path = UserLogin;
 			sourceTree = "<group>";
 		};
+		04D8557629D96131006FEED8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				04D8557729D961FE006FEED8 /* Base */,
+				04D8557829D96266006FEED8 /* Request */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		04D8557729D961FE006FEED8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				040DB655294BBAEF002205C8 /* Network.swift */,
+				040DB657294BBB5A002205C8 /* AlamofireNetwork.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04D8557829D96266006FEED8 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				04D8557D29D965DB006FEED8 /* RequestProtocol.swift */,
+				04D8557F29D96637006FEED8 /* RequestType.swift */,
+				04D8557929D9628D006FEED8 /* podcast */,
+				04D8557A29D96296006FEED8 /* auth */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		04D8557929D9628D006FEED8 /* podcast */ = {
+			isa = PBXGroup;
+			children = (
+				04D8557B29D962B8006FEED8 /* PodcastRequest.swift */,
+			);
+			path = podcast;
+			sourceTree = "<group>";
+		};
+		04D8557A29D96296006FEED8 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
 		04E5ABDC29374CD300F8E898 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +417,7 @@
 		04E5ABE32937524500F8E898 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				04D8557629D96131006FEED8 /* Networking */,
 				040DB652294BBA03002205C8 /* AlamofireNetwork */,
 				040DB66B294BCBB4002205C8 /* Settings.swift */,
 				0467ADFE296516E00084810C /* TestFile.swift */,
@@ -600,6 +649,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040DB65D294BC453002205C8 /* PodcastRemote.swift in Sources */,
+				04D8557C29D962B8006FEED8 /* PodcastRequest.swift in Sources */,
 				044755AC29379361000DB74C /* LoginViewController.swift in Sources */,
 				040DB66C294BCBB4002205C8 /* Settings.swift in Sources */,
 				04E5ABDE29374CEF00F8E898 /* String+Extenions.swift in Sources */,
@@ -618,11 +668,13 @@
 				0467ADFF296516E00084810C /* TestFile.swift in Sources */,
 				04E5ABE029374FBC00F8E898 /* UserLoginError.swift in Sources */,
 				040DB665294BC888002205C8 /* RemoteError.swift in Sources */,
-				040DB658294BBB5A002205C8 /* Alamofire.swift in Sources */,
+				040DB658294BBB5A002205C8 /* AlamofireNetwork.swift in Sources */,
 				04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */,
 				040DB66A294BCB9D002205C8 /* FakeStoreRequest.swift in Sources */,
 				040DB65B294BBC4D002205C8 /* Remote.swift in Sources */,
 				04B50714293C8AAA00EDD10B /* OnboardingPresenter.swift in Sources */,
+				04D8557E29D965DB006FEED8 /* RequestProtocol.swift in Sources */,
+				04D8558029D96637006FEED8 /* RequestType.swift in Sources */,
 				045A4C572934F2B40011E6B8 /* AppDelegate.swift in Sources */,
 				04B50711293C8A1F00EDD10B /* OnboardingViewController.swift in Sources */,
 			);
