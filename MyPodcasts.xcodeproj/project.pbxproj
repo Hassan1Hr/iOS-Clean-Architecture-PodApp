@@ -22,6 +22,7 @@
 		044755AC29379361000DB74C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044755A829379361000DB74C /* LoginViewController.swift */; };
 		044755AD29379361000DB74C /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044755A929379361000DB74C /* LoginPresenter.swift */; };
 		0457DDA229DCD8D40019001E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457DDA129DCD8D40019001E /* NetworkError.swift */; };
+		0457DDA429DCD9680019001E /* ApiConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457DDA329DCD9680019001E /* ApiConstant.swift */; };
 		045A4C572934F2B40011E6B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4C562934F2B40011E6B8 /* AppDelegate.swift */; };
 		045A4C602934F2B50011E6B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A4C5F2934F2B50011E6B8 /* Assets.xcassets */; };
 		045A4C6E2934F2B60011E6B8 /* MyPodcastsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4C6D2934F2B60011E6B8 /* MyPodcastsTests.swift */; };
@@ -79,6 +80,7 @@
 		044755A829379361000DB74C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		044755A929379361000DB74C /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		0457DDA129DCD8D40019001E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0457DDA329DCD9680019001E /* ApiConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstant.swift; sourceTree = "<group>"; };
 		045A4C532934F2B40011E6B8 /* MyPodcasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPodcasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045A4C562934F2B40011E6B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045A4C5F2934F2B50011E6B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -352,6 +354,7 @@
 			children = (
 				04D8557729D961FE006FEED8 /* Base */,
 				04D8557829D96266006FEED8 /* Request */,
+				0457DDA329DCD9680019001E /* ApiConstant.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -673,6 +676,7 @@
 				04E5ABE029374FBC00F8E898 /* UserLoginError.swift in Sources */,
 				040DB665294BC888002205C8 /* RemoteError.swift in Sources */,
 				040DB658294BBB5A002205C8 /* AlamofireNetwork.swift in Sources */,
+				0457DDA429DCD9680019001E /* ApiConstant.swift in Sources */,
 				04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */,
 				040DB66A294BCB9D002205C8 /* FakeStoreRequest.swift in Sources */,
 				040DB65B294BBC4D002205C8 /* Remote.swift in Sources */,
