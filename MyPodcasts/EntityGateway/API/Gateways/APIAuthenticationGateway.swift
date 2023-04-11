@@ -8,9 +8,9 @@
 import Foundation
 
 class APIAuthenticationGatewayImpl: AuthenticationGateway {
-    private let networkClient: AlamofireNetwork
+    private let networkClient: Network
 
-    init(networkClient: AlamofireNetwork) {
+    init(networkClient: Network) {
         self.networkClient = networkClient
     }
     

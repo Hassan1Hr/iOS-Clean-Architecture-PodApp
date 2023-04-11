@@ -9,13 +9,6 @@
 /* Begin PBXBuildFile section */
 		040DB656294BBAEF002205C8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB655294BBAEF002205C8 /* Network.swift */; };
 		040DB65B294BBC4D002205C8 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB65A294BBC4D002205C8 /* Remote.swift */; };
-		040DB65D294BC453002205C8 /* PodcastRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB65C294BC453002205C8 /* PodcastRemote.swift */; };
-		040DB660294BC50B002205C8 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB65F294BC50B002205C8 /* Podcast.swift */; };
-		040DB663294BC61D002205C8 /* RemoteValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB662294BC61D002205C8 /* RemoteValidator.swift */; };
-		040DB665294BC888002205C8 /* RemoteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB664294BC888002205C8 /* RemoteError.swift */; };
-		040DB66A294BCB9D002205C8 /* FakeStoreRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB669294BCB9D002205C8 /* FakeStoreRequest.swift */; };
-		040DB66C294BCBB4002205C8 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB66B294BCBB4002205C8 /* Settings.swift */; };
-		040DB66E294BCD93002205C8 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DB66D294BCD93002205C8 /* RequestError.swift */; };
 		044755AA29379361000DB74C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044755A629379361000DB74C /* LoginViewController.xib */; };
 		044755AB29379361000DB74C /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044755A729379361000DB74C /* LoginConfigurator.swift */; };
 		044755AC29379361000DB74C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044755A829379361000DB74C /* LoginViewController.swift */; };
@@ -28,7 +21,6 @@
 		045A4C6E2934F2B60011E6B8 /* MyPodcastsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4C6D2934F2B60011E6B8 /* MyPodcastsTests.swift */; };
 		045A4C782934F2B60011E6B8 /* MyPodcastsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4C772934F2B60011E6B8 /* MyPodcastsUITests.swift */; };
 		045A4C7A2934F2B60011E6B8 /* MyPodcastsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4C792934F2B60011E6B8 /* MyPodcastsUITestsLaunchTests.swift */; };
-		0467ADFF296516E00084810C /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467ADFE296516E00084810C /* TestFile.swift */; };
 		04B50711293C8A1F00EDD10B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5070F293C8A1F00EDD10B /* OnboardingViewController.swift */; };
 		04B50712293C8A1F00EDD10B /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B50710293C8A1F00EDD10B /* OnboardingView.xib */; };
 		04B50714293C8AAA00EDD10B /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B50713293C8AAA00EDD10B /* OnboardingPresenter.swift */; };
@@ -67,13 +59,6 @@
 /* Begin PBXFileReference section */
 		040DB655294BBAEF002205C8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		040DB65A294BBC4D002205C8 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
-		040DB65C294BC453002205C8 /* PodcastRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastRemote.swift; sourceTree = "<group>"; };
-		040DB65F294BC50B002205C8 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
-		040DB662294BC61D002205C8 /* RemoteValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteValidator.swift; sourceTree = "<group>"; };
-		040DB664294BC888002205C8 /* RemoteError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteError.swift; sourceTree = "<group>"; };
-		040DB669294BCB9D002205C8 /* FakeStoreRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeStoreRequest.swift; sourceTree = "<group>"; };
-		040DB66B294BCBB4002205C8 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		040DB66D294BCD93002205C8 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		044755A629379361000DB74C /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		044755A729379361000DB74C /* LoginConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
 		044755A829379361000DB74C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +75,6 @@
 		045A4C732934F2B60011E6B8 /* MyPodcastsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPodcastsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045A4C772934F2B60011E6B8 /* MyPodcastsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPodcastsUITests.swift; sourceTree = "<group>"; };
 		045A4C792934F2B60011E6B8 /* MyPodcastsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPodcastsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0467ADFE296516E00084810C /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		049C360F299265F500515113 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B5070F293C8A1F00EDD10B /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		04B50710293C8A1F00EDD10B /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
@@ -141,59 +125,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		040DB652294BBA03002205C8 /* AlamofireNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				040DB667294BCA15002205C8 /* Network */,
-				040DB659294BBB87002205C8 /* Remote */,
-				040DB65E294BC4E7002205C8 /* Models */,
-				040DB668294BCB9D002205C8 /* Requests */,
-				040DB661294BC603002205C8 /* RemoteValidator */,
-			);
-			path = AlamofireNetwork;
-			sourceTree = "<group>";
-		};
-		040DB659294BBB87002205C8 /* Remote */ = {
-			isa = PBXGroup;
-			children = (
-				040DB65C294BC453002205C8 /* PodcastRemote.swift */,
-			);
-			path = Remote;
-			sourceTree = "<group>";
-		};
-		040DB65E294BC4E7002205C8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				040DB65F294BC50B002205C8 /* Podcast.swift */,
-				040DB664294BC888002205C8 /* RemoteError.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		040DB661294BC603002205C8 /* RemoteValidator */ = {
-			isa = PBXGroup;
-			children = (
-				040DB662294BC61D002205C8 /* RemoteValidator.swift */,
-			);
-			path = RemoteValidator;
-			sourceTree = "<group>";
-		};
-		040DB667294BCA15002205C8 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		040DB668294BCB9D002205C8 /* Requests */ = {
-			isa = PBXGroup;
-			children = (
-				040DB669294BCB9D002205C8 /* FakeStoreRequest.swift */,
-				040DB66D294BCD93002205C8 /* RequestError.swift */,
-			);
-			path = Requests;
-			sourceTree = "<group>";
-		};
 		044755A329379361000DB74C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +208,16 @@
 			path = MyPodcastsUITests;
 			sourceTree = "<group>";
 		};
+		0484503129DEC8EA00278B3F /* BaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				040DB65A294BBC4D002205C8 /* Remote.swift */,
+				04D8557D29D965DB006FEED8 /* RequestProtocol.swift */,
+				04D8557F29D96637006FEED8 /* RequestType.swift */,
+			);
+			path = BaseRequest;
+			sourceTree = "<group>";
+		};
 		049C36132992666700515113 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,7 +292,7 @@
 		04D8557629D96131006FEED8 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				04D8557729D961FE006FEED8 /* Base */,
+				04D8557729D961FE006FEED8 /* EndPointNetwork */,
 				04D8557829D96266006FEED8 /* Request */,
 				0457DDA329DCD9680019001E /* ApiConstant.swift */,
 				0457DDA529DCDA310019001E /* DataParser.swift */,
@@ -359,21 +300,19 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		04D8557729D961FE006FEED8 /* Base */ = {
+		04D8557729D961FE006FEED8 /* EndPointNetwork */ = {
 			isa = PBXGroup;
 			children = (
 				040DB655294BBAEF002205C8 /* Network.swift */,
 				0457DDA129DCD8D40019001E /* NetworkError.swift */,
 			);
-			path = Base;
+			path = EndPointNetwork;
 			sourceTree = "<group>";
 		};
 		04D8557829D96266006FEED8 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				040DB65A294BBC4D002205C8 /* Remote.swift */,
-				04D8557D29D965DB006FEED8 /* RequestProtocol.swift */,
-				04D8557F29D96637006FEED8 /* RequestType.swift */,
+				0484503129DEC8EA00278B3F /* BaseRequest */,
 				04D8557929D9628D006FEED8 /* podcast */,
 				04D8557A29D96296006FEED8 /* auth */,
 			);
@@ -424,9 +363,6 @@
 			isa = PBXGroup;
 			children = (
 				04D8557629D96131006FEED8 /* Networking */,
-				040DB652294BBA03002205C8 /* AlamofireNetwork */,
-				040DB66B294BCBB4002205C8 /* Settings.swift */,
-				0467ADFE296516E00084810C /* TestFile.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -654,31 +590,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040DB65D294BC453002205C8 /* PodcastRemote.swift in Sources */,
 				04D8557C29D962B8006FEED8 /* PodcastRequest.swift in Sources */,
 				044755AC29379361000DB74C /* LoginViewController.swift in Sources */,
-				040DB66C294BCBB4002205C8 /* Settings.swift in Sources */,
 				04E5ABDE29374CEF00F8E898 /* String+Extenions.swift in Sources */,
 				04E5ABED29375EC400F8E898 /* APIAuthenticationGateway.swift in Sources */,
 				044755AB29379361000DB74C /* LoginConfigurator.swift in Sources */,
 				04E5ABDB29374B7800F8E898 /* AuthenticationGateway.swift in Sources */,
-				040DB66E294BCD93002205C8 /* RequestError.swift in Sources */,
 				0457DDA229DCD8D40019001E /* NetworkError.swift in Sources */,
 				04B50719293C8F4400EDD10B /* NavigationRoute.swift in Sources */,
 				04BD633C29362AD5006F1A65 /* User.swift in Sources */,
 				04B50716293C8C5000EDD10B /* OnboardingConfigurator.swift in Sources */,
-				040DB663294BC61D002205C8 /* RemoteValidator.swift in Sources */,
-				040DB660294BC50B002205C8 /* Podcast.swift in Sources */,
 				04BD634529364773006F1A65 /* LoginParameter.swift in Sources */,
 				044755AD29379361000DB74C /* LoginPresenter.swift in Sources */,
 				040DB656294BBAEF002205C8 /* Network.swift in Sources */,
 				0457DDA629DCDA310019001E /* DataParser.swift in Sources */,
-				0467ADFF296516E00084810C /* TestFile.swift in Sources */,
 				04E5ABE029374FBC00F8E898 /* UserLoginError.swift in Sources */,
-				040DB665294BC888002205C8 /* RemoteError.swift in Sources */,
 				0457DDA429DCD9680019001E /* ApiConstant.swift in Sources */,
 				04BD634329362E1D006F1A65 /* UserLogin.swift in Sources */,
-				040DB66A294BCB9D002205C8 /* FakeStoreRequest.swift in Sources */,
 				040DB65B294BBC4D002205C8 /* Remote.swift in Sources */,
 				04B50714293C8AAA00EDD10B /* OnboardingPresenter.swift in Sources */,
 				04D8557E29D965DB006FEED8 /* RequestProtocol.swift in Sources */,
