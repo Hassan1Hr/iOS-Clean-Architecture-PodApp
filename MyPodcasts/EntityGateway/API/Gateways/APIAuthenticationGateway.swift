@@ -8,9 +8,9 @@
 import Foundation
 
 class APIAuthenticationGatewayImpl: AuthenticationGateway {
-    private let networkClient: Network
+    private let networkClient: Remote
 
-    init(networkClient: Network) {
+    init(networkClient: Remote) {
         self.networkClient = networkClient
     }
     

@@ -8,7 +8,7 @@ import Foundation
 
 /// Represents a collection of Remote Endpoints
 ///
-protocol RemoteProtocol{
+protocol RemoteProtocol {
     func perform<T: Decodable>(_ request: RequestProtocol) async throws -> T
 }
 

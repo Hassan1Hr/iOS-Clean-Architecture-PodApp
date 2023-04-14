@@ -13,7 +13,7 @@ enum PodcastRequest: RequestProtocol {
     case getCategoryWith(genreId: Int, page: Int, region: String)
     
     var path: String {
-        switch self{
+        switch self {
         case .getPopularPodcastsWith:
             return "curated_podcasts"
         case .fetchRandomPodcast:
@@ -28,7 +28,7 @@ enum PodcastRequest: RequestProtocol {
         case let .getPopularPodcastsWith(page):
             return ["page": String(page)]
             
-        case  .fetchRandomPodcast:
+        case .fetchRandomPodcast:
             return [:]
             
         case let .getCategoryWith(genreId, page, _):
