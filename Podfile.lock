@@ -1,11 +1,11 @@
 PODS:
-  - Alamofire (5.4.3)
+  - Alamofire (5.6.4)
   - AllowX (1.1.2):
     - SwiftEntryKit (= 1.2.3)
   - FeedKit (7.0.1)
   - IQKeyboardManagerSwift (6.5.6)
   - JGProgressHUD (2.2)
-  - Kingfisher (7.1.1)
+  - Kingfisher (7.6.2)
   - lottie-ios (3.2.3)
   - PodcastAPI (1.1.4):
     - SwiftyJSON (~> 4.0)
@@ -26,12 +26,12 @@ PODS:
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
-  - Alamofire (= 5.4.3)
+  - Alamofire (= 5.6.4)
   - AllowX (= 1.1.2)
   - FeedKit (= 7.0.1)
   - IQKeyboardManagerSwift (= 6.5.6)
   - JGProgressHUD (= 2.2)
-  - Kingfisher (= 7.1.1)
+  - Kingfisher (= 7.6.2)
   - lottie-ios (= 3.2.3)
   - PodcastAPI (= 1.1.4)
   - R.swift (= 5.4.0)
@@ -62,12 +62,12 @@ SPEC REPOS:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   AllowX: 1c741ee0d66de4707e53114aa0ccb558db3ce4c3
   FeedKit: 9be69ab57ef0eb922ee4b6c31cb6b8840a5bbb29
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
-  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
+  Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
   PodcastAPI: a5b67f783879172fbeb76a329c8c37b0a79d44c6
   QuickLayout: 07b45a72b10083fee3f095990cfed1c1e7b27f0a
@@ -81,6 +81,6 @@ SPEC CHECKSUMS:
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: ec3252258f502db6d80bb4e534acf1bf577b19f4
+PODFILE CHECKSUM: 09f82c8130fb5fcd74cca1cb9266bcd8f2b10f76
 
 COCOAPODS: 1.11.3
