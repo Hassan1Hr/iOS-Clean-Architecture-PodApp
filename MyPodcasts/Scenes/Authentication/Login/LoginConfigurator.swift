@@ -12,7 +12,7 @@ class LoginModuleConfigurator {
     static func configure() -> LoginViewController {
         let viewController = LoginViewController()
 
-        let networkClient = AlamofireNetwork()
+        let networkClient = Remote()
         let authenticationGateway = APIAuthenticationGatewayImpl(networkClient: networkClient)
         let userLoginUseCase = UserLoginUseCaseImpl(authenticationGateway: authenticationGateway)
         let presenter = LoginPresenterImpl(loginView: viewController, loginUseCase: userLoginUseCase)
