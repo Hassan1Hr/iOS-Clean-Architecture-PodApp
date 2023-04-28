@@ -8,7 +8,8 @@
 import Foundation
 
 protocol OnboardingPresenter {
-    var  slides: [OnboardingSlide] { get }
+    var slides: [OnboardingSlide] { get }
+    
     func nextBtnClicked()
     func updateCurrentPage(currentPage: Int)
     func openLogin()
@@ -63,5 +64,4 @@ class OnboardingPresenterImpl: OnboardingPresenter {
         return
     }
 }
-
 

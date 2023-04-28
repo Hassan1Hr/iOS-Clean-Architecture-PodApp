@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol OnboardingView: NavigationRoute{
+protocol OnboardingView: NavigationRoute {
     func updateNextBtnTitle(title: String)
     func setCurrentPage(currentPage: Int)
     func scrollToNextPage(indexPath: IndexPath)
@@ -16,17 +16,22 @@ protocol OnboardingView: NavigationRoute{
 class OnboardingViewController: UIViewController {
     var presenter: OnboardingPresenter!
 
-    @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet weak var nextBtn: UIButton!
-    @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet private weak var collectionView: UICollectionView!
+    @IBOutlet private weak var nextBtn: UIButton!
+    @IBOutlet private weak var pageControl: UIPageControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        registerOnboardingCollectionViewCell()
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func nextBtnClicked(_ sender: Any) {
+    private func registerOnboardingCollectionViewCell() {
+        let nibfile = UINib(nibName: OnboardingCollectionViewCell.identifier, bundle: nil)
+        collectionView.register(nibfile, forCellWithReuseIdentifier: OnboardingCollectionViewCell.identifier)
+    }
+    @IBAction private func nextBtnClicked(_ sender: Any) {
         presenter.nextBtnClicked()
     }
     

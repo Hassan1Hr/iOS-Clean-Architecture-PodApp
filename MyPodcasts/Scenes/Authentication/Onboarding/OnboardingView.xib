@@ -6,7 +6,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -23,7 +22,7 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="khW-b7-kB8">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="khW-b7-kB8" userLabel="CollectionView">
                     <rect key="frame" x="0.0" y="59" width="393" height="627"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="q9e-MY-N2g">
@@ -32,62 +31,11 @@
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
-                    <cells>
-                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnboardingCollectionViewCell" id="JcF-Eo-1QP" customClass="OnboardingCollectionViewCell" customModule="MyPodcasts" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="-20" width="413" height="667"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ruR-7q-Kdp">
-                                <rect key="frame" x="0.0" y="0.0" width="413" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z3t-7I-q4l">
-                                        <rect key="frame" x="0.0" y="0.0" width="413" height="525"/>
-                                    </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Hv3-9l-VJu">
-                                        <rect key="frame" x="16" y="525" width="381" height="126"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Delivery At Your Doorstep" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2M5-iI-PNQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="381" height="74"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="31"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home delivery and Online reservation systen for restaurants and cafes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlt-UE-y6a">
-                                                <rect key="frame" x="0.0" y="90" width="381" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="jlt-UE-y6a" firstAttribute="leading" secondItem="Hv3-9l-VJu" secondAttribute="leading" id="AWm-7x-yxR"/>
-                                            <constraint firstItem="jlt-UE-y6a" firstAttribute="top" secondItem="2M5-iI-PNQ" secondAttribute="bottom" constant="16" id="EZE-gb-Ltz"/>
-                                            <constraint firstAttribute="trailing" secondItem="2M5-iI-PNQ" secondAttribute="trailing" id="Hhi-UX-dPq"/>
-                                            <constraint firstItem="2M5-iI-PNQ" firstAttribute="leading" secondItem="Hv3-9l-VJu" secondAttribute="leading" id="fnz-hZ-IgI"/>
-                                            <constraint firstAttribute="bottom" secondItem="jlt-UE-y6a" secondAttribute="bottom" id="lfp-fo-WKY"/>
-                                            <constraint firstAttribute="trailing" secondItem="jlt-UE-y6a" secondAttribute="trailing" id="tVY-g8-2Tu"/>
-                                            <constraint firstItem="2M5-iI-PNQ" firstAttribute="top" secondItem="Hv3-9l-VJu" secondAttribute="top" id="uAP-b2-lkC"/>
-                                        </constraints>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="Z3t-7I-q4l" firstAttribute="top" secondItem="ruR-7q-Kdp" secondAttribute="top" id="2hS-fY-5Gh"/>
-                                    <constraint firstItem="Hv3-9l-VJu" firstAttribute="leading" secondItem="ruR-7q-Kdp" secondAttribute="leading" constant="16" id="CHR-Rd-h3v"/>
-                                    <constraint firstItem="Hv3-9l-VJu" firstAttribute="top" secondItem="Z3t-7I-q4l" secondAttribute="bottom" id="GcP-g1-boA"/>
-                                    <constraint firstAttribute="trailing" secondItem="Z3t-7I-q4l" secondAttribute="trailing" id="MTz-KA-oza"/>
-                                    <constraint firstAttribute="trailing" secondItem="Hv3-9l-VJu" secondAttribute="trailing" constant="16" id="XXD-Q8-wxt"/>
-                                    <constraint firstItem="Z3t-7I-q4l" firstAttribute="leading" secondItem="ruR-7q-Kdp" secondAttribute="leading" id="iya-Vu-TAy"/>
-                                    <constraint firstAttribute="bottom" secondItem="Hv3-9l-VJu" secondAttribute="bottom" constant="16" id="uNO-tG-T5j"/>
-                                </constraints>
-                            </collectionViewCellContentView>
-                            <size key="customSize" width="413" height="667"/>
-                            <connections>
-                                <outlet property="slideDescriptionLbl" destination="jlt-UE-y6a" id="WYz-V7-NnC"/>
-                                <outlet property="slideImageView" destination="Z3t-7I-q4l" id="q9p-4Q-yPb"/>
-                                <outlet property="slideTitleLbl" destination="2M5-iI-PNQ" id="66V-ow-Aon"/>
-                            </connections>
-                        </collectionViewCell>
-                    </cells>
+                    <cells/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="K9n-XT-hx8"/>
+                        <outlet property="delegate" destination="-1" id="mHn-Vm-7OF"/>
+                    </connections>
                 </collectionView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Rr-Wa-ULJ">
                     <rect key="frame" x="121.66666666666669" y="728" width="150" height="50"/>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="OnboardingCollectionViewCell" customModule="MyPodcasts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="592" height="623"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="592" height="623"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nZz-NH-cIi">
+                        <rect key="frame" x="0.0" y="0.0" width="592" height="536"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="cTA-kh-h5H">
+                        <rect key="frame" x="16" y="536" width="560" height="71"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Delivery At Your Doorstep" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hX0-KD-At0">
+                                <rect key="frame" x="0.0" y="0.0" width="560" height="37"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home delivery and Online reservation systen for restaurants and cafes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZA-Ma-orP">
+                                <rect key="frame" x="0.0" y="53" width="560" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="XZA-Ma-orP" secondAttribute="bottom" id="2co-0y-qKx"/>
+                            <constraint firstItem="hX0-KD-At0" firstAttribute="leading" secondItem="cTA-kh-h5H" secondAttribute="leading" id="B7n-zt-G03"/>
+                            <constraint firstItem="XZA-Ma-orP" firstAttribute="top" secondItem="hX0-KD-At0" secondAttribute="bottom" constant="16" id="F3o-7h-lWD"/>
+                            <constraint firstAttribute="trailing" secondItem="XZA-Ma-orP" secondAttribute="trailing" id="N1g-aF-hzy"/>
+                            <constraint firstItem="XZA-Ma-orP" firstAttribute="leading" secondItem="cTA-kh-h5H" secondAttribute="leading" id="YJx-3p-DIs"/>
+                            <constraint firstItem="hX0-KD-At0" firstAttribute="top" secondItem="cTA-kh-h5H" secondAttribute="top" id="aN4-wt-ltC"/>
+                            <constraint firstAttribute="trailing" secondItem="hX0-KD-At0" secondAttribute="trailing" id="hVy-i3-Hh3"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="cTA-kh-h5H" firstAttribute="top" secondItem="nZz-NH-cIi" secondAttribute="bottom" id="IOK-i5-rrW"/>
+                <constraint firstAttribute="trailing" secondItem="cTA-kh-h5H" secondAttribute="trailing" constant="16" id="RIk-BB-eUO"/>
+                <constraint firstAttribute="trailing" secondItem="nZz-NH-cIi" secondAttribute="trailing" id="iTd-Cj-jdu"/>
+                <constraint firstItem="cTA-kh-h5H" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="k7x-31-VnD"/>
+                <constraint firstAttribute="bottom" secondItem="cTA-kh-h5H" secondAttribute="bottom" constant="16" id="m0X-Cv-t19"/>
+                <constraint firstItem="nZz-NH-cIi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="nEl-NL-gvn"/>
+                <constraint firstItem="nZz-NH-cIi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ygk-9C-gF3"/>
+            </constraints>
+            <size key="customSize" width="592" height="623"/>
+            <connections>
+                <outlet property="slideDescriptionLbl" destination="XZA-Ma-orP" id="Afi-8I-DdR"/>
+                <outlet property="slideImageView" destination="nZz-NH-cIi" id="qpY-ho-Zfg"/>
+                <outlet property="slideTitleLbl" destination="hX0-KD-At0" id="1AA-oy-QeN"/>
+            </connections>
+            <point key="canvasLocation" x="345.03816793893128" y="190.49295774647888"/>
+        </collectionViewCell>
+    </objects>
+</document>

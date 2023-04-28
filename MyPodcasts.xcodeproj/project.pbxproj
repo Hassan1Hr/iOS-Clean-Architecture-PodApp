@@ -23,7 +23,8 @@
 		045A4C782934F2B60011E6B8 /* MyPodcastsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4C772934F2B60011E6B8 /* MyPodcastsUITests.swift */; };
 		045A4C7A2934F2B60011E6B8 /* MyPodcastsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A4C792934F2B60011E6B8 /* MyPodcastsUITestsLaunchTests.swift */; };
 		047DDC4929E6A9A100581D4F /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DDC4829E6A9A100581D4F /* OnboardingSlide.swift */; };
-		047DDC4B29E6AA0800581D4F /* OnboardingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DDC4A29E6AA0800581D4F /* OnboardingViewCell.swift */; };
+		04A4EE0C29ED34140079C125 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE0A29ED34140079C125 /* OnboardingCollectionViewCell.swift */; };
+		04A4EE0D29ED34140079C125 /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A4EE0B29ED34140079C125 /* OnboardingCollectionViewCell.xib */; };
 		04B50711293C8A1F00EDD10B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5070F293C8A1F00EDD10B /* OnboardingViewController.swift */; };
 		04B50712293C8A1F00EDD10B /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B50710293C8A1F00EDD10B /* OnboardingView.xib */; };
 		04B50714293C8AAA00EDD10B /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B50713293C8AAA00EDD10B /* OnboardingPresenter.swift */; };
@@ -80,8 +81,9 @@
 		045A4C772934F2B60011E6B8 /* MyPodcastsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPodcastsUITests.swift; sourceTree = "<group>"; };
 		045A4C792934F2B60011E6B8 /* MyPodcastsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPodcastsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		047DDC4829E6A9A100581D4F /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
-		047DDC4A29E6AA0800581D4F /* OnboardingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewCell.swift; sourceTree = "<group>"; };
 		049C360F299265F500515113 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A4EE0A29ED34140079C125 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		04A4EE0B29ED34140079C125 /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
 		04B5070F293C8A1F00EDD10B /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		04B50710293C8A1F00EDD10B /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
 		04B50713293C8AAA00EDD10B /* OnboardingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
@@ -232,16 +234,25 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+		04A4EE0729ED325C0079C125 /* OnboardingViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				047DDC4829E6A9A100581D4F /* OnboardingSlide.swift */,
+				04A4EE0A29ED34140079C125 /* OnboardingCollectionViewCell.swift */,
+				04A4EE0B29ED34140079C125 /* OnboardingCollectionViewCell.xib */,
+			);
+			path = OnboardingViewCell;
+			sourceTree = "<group>";
+		};
 		04B5070E293C89CD00EDD10B /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				04A4EE0729ED325C0079C125 /* OnboardingViewCell */,
 				04B5070F293C8A1F00EDD10B /* OnboardingViewController.swift */,
 				04B50710293C8A1F00EDD10B /* OnboardingView.xib */,
 				04B50713293C8AAA00EDD10B /* OnboardingPresenter.swift */,
 				04B50715293C8C5000EDD10B /* OnboardingConfigurator.swift */,
 				04204AFF29E93C34009C947E /* OnboardingRoutes.swift */,
-				047DDC4829E6A9A100581D4F /* OnboardingSlide.swift */,
-				047DDC4A29E6AA0800581D4F /* OnboardingViewCell.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -513,6 +524,7 @@
 			files = (
 				04B50712293C8A1F00EDD10B /* OnboardingView.xib in Resources */,
 				045A4C602934F2B50011E6B8 /* Assets.xcassets in Resources */,
+				04A4EE0D29ED34140079C125 /* OnboardingCollectionViewCell.xib in Resources */,
 				044755AA29379361000DB74C /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,7 +612,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D8557C29D962B8006FEED8 /* PodcastRequest.swift in Sources */,
-				047DDC4B29E6AA0800581D4F /* OnboardingViewCell.swift in Sources */,
 				044755AC29379361000DB74C /* LoginViewController.swift in Sources */,
 				04E5ABDE29374CEF00F8E898 /* String+Extenions.swift in Sources */,
 				04E5ABED29375EC400F8E898 /* APIAuthenticationGateway.swift in Sources */,
@@ -625,6 +636,7 @@
 				045A4C572934F2B40011E6B8 /* AppDelegate.swift in Sources */,
 				04204B0029E93C34009C947E /* OnboardingRoutes.swift in Sources */,
 				04B50711293C8A1F00EDD10B /* OnboardingViewController.swift in Sources */,
+				04A4EE0C29ED34140079C125 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,20 +1,25 @@
 //
-//  OnboardingViewCell.swift
+//  OnboardingCollectionViewCell.swift
 //  MyPodcasts
 //
-//  Created by mac on 12/04/2023.
+//  Created by mac on 17/04/2023.
 //
 
 import UIKit
 
 class OnboardingCollectionViewCell: UICollectionViewCell {
-    
+
     static let identifier = String(describing: OnboardingCollectionViewCell.self)
     
-    @IBOutlet weak var slideImageView: UIImageView!
-    @IBOutlet weak var slideTitleLbl: UILabel!
-    @IBOutlet weak var slideDescriptionLbl: UILabel!
+    @IBOutlet private weak var slideImageView: UIImageView!
+    @IBOutlet private weak var slideTitleLbl: UILabel!
+    @IBOutlet private weak var slideDescriptionLbl: UILabel!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
     func setup(_ slide: OnboardingSlide) {
         slideImageView.image = slide.image
         slideTitleLbl.text = slide.title
